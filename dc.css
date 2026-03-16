@@ -1,0 +1,172 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+background: linear-gradient(to right,#001f54,#004aad);
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0a1f44;
+padding:15px 40px;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:#ff3c3c;
+}
+
+
+/* MAIN CONTAINER */
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+}
+
+/* LEFT */
+
+.left{
+width:50%;
+}
+
+.left h1{
+font-size:45px;
+margin-bottom:20px;
+color:#ff3c3c;
+}
+
+.left p{
+font-size:18px;
+line-height:1.6;
+margin-bottom:30px;
+}
+
+/* SPACE BETWEEN HEADING AND TABLE */
+
+.left h2{
+margin-bottom:20px;
+}
+
+/* TABLE */
+
+.team-table{
+width:100%;
+border-collapse:collapse;
+background:white;
+color:black;
+margin-top:10px;
+}
+
+.team-table th,
+.team-table td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+.team-table th{
+background:#004aad;
+color:white;
+}
+
+
+/* RIGHT IMAGE */
+
+.right{
+width:45%;
+text-align:center;
+}
+
+.right img{
+width:520px;   /* increased image size */
+border-radius:10px;
+}
+
+
+/* PLAYERS SECTION */
+
+.players-section{
+padding:60px;
+background:#02173a;
+}
+
+.players-title{
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+color:#ff3c3c;
+}
+
+
+/* PLAYERS GRID */
+
+.players-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+
+/* PLAYER CARD */
+
+.player-card{
+background:white;
+color:black;
+border-radius:10px;
+padding:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.player-card:hover{
+transform:translateY(-10px);
+box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+.player-card img{
+width:100%;
+height:230px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+.player-card h3{
+margin-bottom:8px;
+color:#004aad;
+}
+
+.player-card p{
+font-size:14px;
+line-height:1.4;
+}
