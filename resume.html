@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Sudeeptha Portfolio</title>
+  <style>
+    body 
+    {
+      margin: 0;
+      padding: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: #fff9fb;
+    }
+    /* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 2px solid #c8b6ff;   /* Outer border */
+}
+
+th, td {
+    border: 1.5px solid #c8b6ff;  /* Row & column lines */
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(135deg, #f8c8dc, #d8b4f8);
+    color: #4b2e83;
+}
+
+tr:nth-child(even) {
+    background-color: #fff6fb;
+}
+
+    .header {
+      text-align: center;
+      padding: 35px 20px;
+      background: linear-gradient(135deg, #f8c8dc, #d8b4f8);
+      color: #4b2e83;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 6px solid #ffffff;
+      object-fit: cover;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    h1 
+    {
+      margin: 5px 0;
+      font-size: 28px;
+    }
+    .tagline {
+      font-size: 15px;
+      color: #6d4c91;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 35px;
+      background: #e6d6ff;
+      padding: 14px 0;
+      font-weight: bold;
+    }
+    .navbar a {
+      color: #5e548e;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .navbar a:hover {
+      color: #ff8fab;
+    }
+    .container {
+      width: 82%;
+      margin: auto;
+      margin-top: 25px;
+      margin-bottom: 40px;
+    }
+    .section {
+      padding: 22px;
+      margin-bottom: 22px;
+      border-radius: 14px;
+      background: #ffffff;
+      border: 2px solid #f1e4ff;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.06);
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #6a4c93;
+    }
+
+    ul {
+      margin: 0;l̥ō
+      padding-left: 20px;
+      color: #7b5ea7;
+      font-size: 15px;
+    }
+
+    p {
+      color: #7b5ea7;
+      font-size: 15px;
+    }
+    #education{
+        padding: 10px;
+    }
+    .certifications{
+        padding: 50px;
+        margin: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 16px;
+      background: #e6d6ff;
+      color: #5e548e;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: #ff8fab;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="respro.jpeg" alt="Profile Photo" class="profile-img">
+    <h1>O. Sudeeptha </h1>
+    <p class="tagline"> Computer Science Student |Front-End Developer  </p>
+  </div>
+  <div class="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+    <a href="#personal-info">Personal Info</a>
+  </div>
+  <div class="container">
+    <div class="section" id="about">
+      <h2>About </h2>
+      <p>
+        I am a Computer Science Engineering student passionate about designing
+        user-friendly web interfaces. I enjoy learning new technologies and
+        building creative, responsive websites.
+      </p>
+    </div>
+    <div class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java Programming</li>
+        <li>HTML & CSS</li>
+        <li>Data Structures</li>
+        <li>C Language</li>
+      </ul>
+    </div>
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>Portfolio Website:</b> Personal portfolio using HTML & CSS.</li>
+        <li><b>Stack Implementation in Java</b></li>
+            <li><b>House Price Prediction using Python</b></li>
+      </div>
+<!-- Education Section -->
+<section id="education">
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>B.Tech (AI&DS)</td>
+            <td>KL University</td>
+            <td>2023–2027</td>
+            <td>96%</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>NSR Junior College</td>
+            <td>2021–2023</td>
+            <td>93%</td>
+        </tr>
+        <tr>
+            <td>CBSE</td>
+            <td>Navya bharathi School</td>
+            <td>2021</td>
+            <td>71%</td>
+        </tr>
+    </table>
+</section>
+
+    <div class="section" id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>HTML & CSS – FreeCodeCamp</li>
+        <li>Python Basics – Codewithmosh</li>
+        <li>Java programming- Codechef</li>
+      </ul>
+    </div>
+<div class="section" id="personal-info">
+  <h2>Personal Info</h2>
+  <ul>
+    <li><b>Full Name:</b>O. Sudeeptha reddy </li>
+    <li><b>Date of Birth:</b> 20/03/2008</li>
+    <li><b>Father Name:</b>ramareddy</li>
+    <li><b>Mother Name:</b>likitha</li>
+    <li><b>Brother Name:</b>Vardhan reddy</li>
+    <li><b>Location:</b> Telangana, India</li>
+    <li><b>Languages Known:</b> English, Telugu</li>
+    <li><b>Hobbies:</b> seeing movies,watching series,Listening to K-Music</li>
+  </ul>
+</div>
+    <div class="section" id="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li><b>Email:</b>sudeeptha@gmail.com</li>
+        <li><b>Phone:</b>91-9701722144</li>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</body>
+</html>

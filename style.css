@@ -1,0 +1,125 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-image:url("background.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+height:100vh;
+margin:0;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 15px 40px;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;   /* center them */
+    gap: 40px;                 /* space between each item */
+    list-style: none;
+    padding: 0;
+}
+
+.logo-text {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;.background-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+}
+
+.nav-links a:hover {
+    color: whitesmoke
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    height: 90vh;
+    background: url('') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Dark overlay */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Text Content */
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+/* IPL Logo Top Left */
+.ipl-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    z-index: 2;
+}
+
+/* FOOTER */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* behind content */
+}
+
